@@ -1,0 +1,13 @@
+apt update -y
+apt upgrade -y
+clear
+apt install nodejs -y
+clear
+apt install golang -y
+clear
+apt install python3 -y
+clear
+apt install curl -y
+clear
+apt install npm -y
+clear
